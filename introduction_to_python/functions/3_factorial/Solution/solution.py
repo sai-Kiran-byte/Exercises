@@ -5,7 +5,7 @@ def fact(n):
     else:
         data=n * fact(n-1)
     return data 
-
+# added this line to test
 n=int(input())
 result=fact(n)
 print(result)
